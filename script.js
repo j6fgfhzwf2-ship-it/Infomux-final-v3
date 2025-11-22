@@ -18,7 +18,6 @@ drawGlow(ctx);
 
 async function testAI() {
     const apiKey = window.electronAPI.getApiKey();
-    console.log("API Key ready:", apiKey);
+    console.log("API Key ready for AI:", apiKey);
 }
 testAI();
-
