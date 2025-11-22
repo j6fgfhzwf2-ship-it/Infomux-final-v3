@@ -1,1 +1,22 @@
+{
+  "name": "infomux-final-ai-v3",
+  "version": "3.0.0",
+  "description": "Electron v3 project with AI and animations",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "package:mac": "electron-packager . InfomuxFinal --platform=darwin --arch=x64 --out=dist --overwrite --icon=assets/icon.icns",
+    "package:win": "electron-packager . InfomuxFinal --platform=win32 --arch=x64 --out=dist --overwrite --icon=assets/icon.ico",
+    "package:linux": "electron-packager . InfomuxFinal --platform=linux --arch=x64 --out=dist --overwrite"
+  },
+  "keywords": ["electron", "ai", "animations"],
+  "author": "Dev: milaslevrai | Dark: darkolevrai",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.2.0",
+    "electron-packager": "^17.1.0",
+    "dotenv": "^16.3.1"
+  }
+}
 
