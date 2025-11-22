@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Electron v3 project with AI and animations",
   "main": "main.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "electron .",
     "package:mac": "electron-packager . InfomuxFinal --platform=darwin --arch=x64 --out=dist --overwrite --icon=assets/icon.icns",
@@ -17,6 +17,6 @@
     "electron": "^26.2.0",
     "electron-packager": "^17.1.0",
     "dotenv": "^16.3.1"
-  }
+  },
+  "dependencies": {}
 }
-
